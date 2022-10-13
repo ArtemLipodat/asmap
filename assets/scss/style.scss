@@ -1,2 +1,119 @@
 @import '../scss/vars.scss';
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+body{
+  font-family: $font-family;
+}
+a{
+  text-decoration: none;
+}
+img, svg{
+  cursor: pointer;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+.h3{
+  font-size: $font-size-21;
+  color: $text-color-white;
+  font-weight: $font-weight-600;
+  padding-top: 10px;
+}
+.h4{
+  font-size: $font-size-21;
+  color: $text-color-blue;
+  font-weight: $font-weight-600;
+}
+.pr-45p{
+  padding-right: 45%;
+}
+.button{
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: $text-color-blue-light;
+  font-size: $font-size-16;
+  font-weight: $font-weight-600;
+  margin-left: 25px;
+  &::before{
+    content: '';
+    background: url('/assets/img/button.svg') no-repeat;
+    height: 45px;
+    width: 15px;
+    left: -25px;
+    position: absolute;
+  }
+}
+.header{
+  background: url('../img/header_bg.svg') no-repeat center center;
+  &__text{
+    font-size: $font-size-14;
+    font-style: $font-style-italic;
+    color: $text-color-white;
+  }
+  &__icons{
+    &__tel{
+      a{
+        color: $text-color-white;
+        font-size: $font-size-18;
+      }
+    }
+  }
+}
+.title{
+  background: url('/assets/img/section_title.svg') no-repeat;
+  height: 100px;
+  &_bg{
+    // background: #00B1EB;
+    background: linear-gradient(to right,#00B1EB 25%, rgb(255, 255, 255) 45%);
+    height: 48px;
+    // box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.26);
+  }
+}
+.big_news{
+  background: url('/assets/img/big_new_bg.png') no-repeat right;
+  height: 325px;
+  margin-top: -50px;
+  p{
+    font-size: $font-size-18;
+    color: $text-color-blue;
+    font-weight: $font-weight-400;
+  }
+}
+.news{
+  background: #BCE4FA;
+  &__date{
+    font-size: $font-size-30;
+    font-weight: $font-weight-600;
+    color: $text-color-blue;
+    text-align: center;
+    display: block;
+  }
+  &__prev{
+    font-weight: $font-weight-600;
+    color: $text-color-blue;
+    font-size: $font-size-21;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background: #1B4F92;
+  padding: 40px 0;
+    a, span{
+      color: $text-color-white;
+      font-weight: $font-weight-400;
+      font-size: $font-size-14;
+    }
+}

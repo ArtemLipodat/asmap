@@ -1,11 +1,20 @@
 // цвета
 $text-color-blue: #004388;
+$text-color-blue-light: #00B1EB;
 $text-color-white: #FFFFFF;
 $text-color-black: #000000;
 
 // шрифт
 $font-family: 'Montserrat';
-$font-style: italic;
-$font-style: normal;
-$font-weight: 400;
-$font-weight: 600;
+$font-style-italic: italic;
+$font-style-normal: normal;
+$font-weight-400: 400;
+$font-weight-600: 600;
+
+
+//размер шрифта
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-18: 18px;
+$font-size-21: 21px;
+$font-size-30: 30px;
