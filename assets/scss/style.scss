@@ -4,12 +4,20 @@
 
 body{
   font-family: $font-family;
+  position: relative;
 }
 a{
   text-decoration: none;
+  &:hover{
+    color: $text-color-blue;
+  }
 }
 img, svg{
   cursor: pointer;
+}
+
+ul{
+  list-style: none;
 }
 
 .splide__slide img {
@@ -62,6 +70,39 @@ img, svg{
       }
     }
   }
+}
+.main{
+  margin-top: -80px;
+}
+.slider{
+  &_button{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    color: $text-color-white;
+    &::before{
+      background: url('/assets/img/slider_btn.svg') no-repeat;
+      height: 30px;
+    }
+  }
+}
+.nav{
+  position: relative;
+  z-index: 1;
+  padding-top: 25px;
+    &-item{
+      background: url('/assets/img/nav_bg.svg') no-repeat;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a{
+        color: $text-color-blue;
+        font-size: $font-size-18;
+        font-weight: $font-weight-600;
+        padding: 0 50px;
+      }
+    }
 }
 .title{
   background: url('/assets/img/section_title.svg') no-repeat;

@@ -6,7 +6,10 @@
     <div class="splide" role="group">
       <div class="splide__track">
         <ul class="splide__list">
-          <li class="splide__slide"><img src="/assets/img/slider.jpg" alt=""></li>
+          <li class="splide__slide position-relative">
+            <img src="/assets/img/slider.jpg" alt="">
+            <a href="" class="button slider_button">Подробнее о предложении</a>
+          </li>
         </ul>
       </div>
   </div>
