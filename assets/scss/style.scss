@@ -311,6 +311,45 @@ h1{
   }
 }
 
+.viza_bg_1{
+  background: url('../img/viza_bg_1.jpg') no-repeat center center;
+  height: 400px;
+  background-size: 100%;
+  li{
+    margin-top: 20px;
+  }
+}
+.viza_bg_2{
+  background: url('../img/viza_bg_2.png') no-repeat top 50px center;
+  height: auto;
+  background-size: 100%;
+}
+.viza_btn{
+  background: url(../img/viza_btn.svg) no-repeat top 20px center;
+  background-size: 100%;
+  padding: 30px 80px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.viza_btn_big{
+    background: url(../img/viza_btn.svg) no-repeat top 20px center;
+    background-size: 100%;
+    padding: 30px 80px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.viza_bg_3{
+  background: url('../img/viza_bg_3.png') no-repeat center center;
+  height: auto;
+  background-size: 100%;
+  p{
+    padding-right: 50%;
+  }
+}
 
 
 
@@ -318,6 +357,22 @@ h1{
 
 
 
+
+.label{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 122%;
+  position: relative;
+  color: #000000;
+  &::before{
+    content: '';
+    position: absolute;
+    background: url('../img/cart_info.svg') no-repeat left;
+    height: 15px;
+    width: 15px;
+    left: -20px;
+  }
+}
 
 .footer{
   background: #1B4F92;

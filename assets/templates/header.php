@@ -54,7 +54,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="col-2 nav-item"><a href="/top_cart.php">Топливные карты</a></div>
-          <div class="col-2 nav-item"><a href="">Визовая поддержка</a></div>
+          <div class="col-2 nav-item"><a href="/viza.php">Визовая поддержка</a></div>
           <div class="col-2 nav-item"><a href="">Страхование</a></div>
           <div class="col-2 nav-item"><a href="">Интернет магазин</a></div>
           <div class="col-2 nav-item"><a href="">Карты для тахографов</a></div>
