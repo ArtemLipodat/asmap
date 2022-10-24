@@ -13,14 +13,6 @@
         </ul>
       </div>
   </div>
-  <section class="about">
-  <div class="title_bg">
-      <div class="container">
-        <h3 class="ps-5 title h3">О компании</h3>
-      </div>
-      
-    </div>
-  </section>
   </section>
   <section class="bigs_news">
     <div class="title_bg">

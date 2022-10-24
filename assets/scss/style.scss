@@ -350,6 +350,92 @@ h1{
     padding-right: 50%;
   }
 }
+.w-30{
+  width: 30%;
+}
+.w-70{
+  width: 70%;
+}
+.catalog_list{
+  display: flex;
+  gap: 20px;
+  &_item{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 265px;
+    img{
+      width: 100%;
+    }
+    .name{
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      color: #004388;
+    }
+    .button_shop{
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 120%;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 15px;
+      background: url('../img/shop_btn.png') no-repeat center center;
+      background-size: 100%;
+    }
+  }
+  .left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    background: url('../img/right.png') no-repeat center center;
+    background-size: 100%;
+    padding: 40px 80px;
+    a{
+      font-weight: 600;
+      font-size: 19px;
+      color: #FFFFFF;
+    }
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  }
+}
+.shop_menu{
+  background: url('../img/shop_menu.png') no-repeat center center;
+  background-size: 100%;
+  height: 315px;
+  padding: 30px;
+  .slash_link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    &::after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: url('../img/viza_slash.png') no-repeat center center;
+      right: -35px;
+      top: 10px;
+    }
+  }
+  &_link{
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: $text-color-white;
+  }
+}
 
 
 
