@@ -16,6 +16,7 @@
       <div class="d-flex flex-column align-items-end w-50">
         <span class="f-s-18 f-w-600 blue-l text-end">Бесплатная <br>круглосуточная «горячая линия»</span>
         <a  class="f-s-18 f-w-600 blue" href="tel:8-800-234-1-622">8-800-234-1-622</a>
+        <a  class="f-s-18 f-w-600 blue" href="">Личный кабинет</a>
       </div>
     </div>
   </div>
@@ -37,12 +38,6 @@
             <p class="cart_info mt-4">Скидка до 5% на дизельное топливо и бензин</p>
             <p class="cart_info">Безналичная оплата и контроль расходов онлайн</p>
             <a href="" class="button mt-4">Подробнее</a>
-            <ul class="list_doc">
-              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
-              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
-              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
-              <li><a href="" class="cart_doc">АЗС локатор</a></li>
-            </ul>
             <a href="" class="cart_buy">Заказать карту</a>
             <a href="" class="cart_buy_2">Заказать консультацию</a>
           </div>
@@ -52,22 +47,12 @@
             <img class="cart_img" src="./assets/img/card-02.png" alt="">
             <span class="cart_name">Лукойл</span>
             <span class="cart_desc">
-            Сеть АЗС Лукойл - крупнейшая
-в России
+              Сеть АЗС Лукойл - крупнейшая в России
             </span>
-            <p class="cart_info mt-4">Скидка на все виды топлива
-на АЗС Лукойл</p>
+            <p class="cart_info mt-4">Скидка на все виды топлива на АЗС Лукойл</p>
             <p class="cart_info">Безналичная оплата на заправках</p>
             <p class="cart_info">Гарантия качественного топлива</p>
             <a href="" class="button mt-4">Подробнее</a>
-            <ul class="list_doc">
-              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
-              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
-              <li><a href="" class="cart_doc">Инструкция
-по использованию карты</a></li>
-              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
-              <li><a href="" class="cart_doc">АЗС локатор</a></li>
-            </ul>
             <a href="" class="cart_buy">Заказать карту</a>
             <a href="" class="cart_buy_2">Заказать консультацию</a>
           </div>
@@ -77,31 +62,59 @@
             <img class="cart_img" src="./assets/img/card-03.png" alt="">
             <span class="cart_name">Газпромнефть</span>
             <span class="cart_desc">
-            Крупная сеть АЗС на территории
-РФ и СНГ
+              Крупная сеть АЗС на территории РФ и СНГ
             </span>
-            <p class="cart_info mt-4">Безналичная оплата и контроль
-	расходов онлайн</p>
-            <p class="cart_info">Сеть из 2700 АЗС на территории
-России и стран ближнего
-зарубежья</p>
-<p class="cart_info">Защита от несанкционированного
-	доступа</p>
+            <p class="cart_info mt-4">Безналичная оплата и контроль расходов онлайн</p>
+            <p class="cart_info">Сеть из 2700 АЗС на территории России и стран ближнего зарубежья</p>
+            <p class="cart_info">Защита от несанкционированного доступа</p>
             <a href="" class="button mt-4">Подробнее</a>
-            <ul class="list_doc">
-              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
-              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
-              <li><a href="" class="cart_doc">Образец отчета агента</a></li>
-
-              <li><a href="" class="cart_doc">Инструкция
-по использованию карты ГПН</a></li>
-              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
-              <li><a href="" class="cart_doc">АЗС локатор</a></li>
-            </ul>
+    
             <a href="" class="cart_buy">Заказать карту</a>
             <a href="" class="cart_buy_2">Заказать консультацию</a>
           </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+        <ul class="list_doc">
+              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
+              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
+              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
+              <li><a href="" class="cart_doc">АЗС локатор</a></li>
+            </ul>
+        </div>
+        <div class="col-4">
+        <ul class="list_doc">
+              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
+              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
+              <li><a href="" class="cart_doc">Инструкция по использованию карты</a></li>
+              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
+              <li><a href="" class="cart_doc">АЗС локатор</a></li>
+            </ul>
+        </div>
+        <div class="col-4">
+        <ul class="list_doc">
+              <li><a href="" class="cart_doc">Коммерческое предложение</a></li>
+              <li><a href="" class="cart_doc">Бланк заявки для договора</a></li>
+              <li><a href="" class="cart_doc">Образец отчета агента</a></li>
+
+              <li><a href="" class="cart_doc">Инструкция по использованию карты ГПН</a></li>
+              <li><a href="" class="cart_doc">Полный список АЗС</a></li>
+              <li><a href="" class="cart_doc">АЗС локатор</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="top_cart_bg_3">
+    <div class="container">
+      <div class="head pt-3">ЛИЧНЫЙ КАБИНЕТ</div>
+      <p class="f-s-16 f-w-600 blue mt-4">Для контроля расходов с использованием безопасного сервиса компании.</p>
+      <p class="mt-5"><a href=""><img src="./assets/img/cabinet.png" alt=""></a></p>
+      <div class="mt-5 d-flex align-items-center gap-30">
+        <div class="head">МОБИЛЬНОЕ <br>ПРИЛОЖЕНИЕ</div>
+        <div><a href=""><img src="./assets/icon/store.svg" alt=""></a></div>
+        <div><a href=""><img src="./assets/icon/gplay.svg" alt=""></a></div>
       </div>
     </div>
   </section>
@@ -125,18 +138,6 @@
         <img src="./assets/img/sbis.svg" alt="">
         <p class="f-w-600 blue-l f-s-16 mt-2">Компания ООО «АСМАП-Сервис» работает в системе электронного документооборота «СБИС»</p>
       </div>
-      </div>
-    </div>
-  </section>
-  <section class="top_cart_bg_3">
-    <div class="container">
-      <div class="head pt-3">ЛИЧНЫЙ КАБИНЕТ</div>
-      <p class="f-s-16 f-w-600 blue mt-4">Для контроля расходов с использованием безопасного сервиса компании.</p>
-      <p class="mt-5"><a href=""><img src="./assets/img/cabinet.png" alt=""></a></p>
-      <div class="mt-5 d-flex align-items-center gap-30">
-        <div class="head">МОБИЛЬНОЕ <br>ПРИЛОЖЕНИЕ</div>
-        <div><a href=""><img src="./assets/icon/store.svg" alt=""></a></div>
-        <div><a href=""><img src="./assets/icon/gplay.svg" alt=""></a></div>
       </div>
     </div>
   </section>
