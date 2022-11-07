@@ -14,9 +14,9 @@
     <div class="d-flex justify-content-between align-items-center">
       <h1 class="w-50">Топливные карты для юридических лиц</h1>
       <div class="d-flex flex-column align-items-end w-50">
-        <span class="f-s-18 f-w-600 blue-l text-end">Бесплатная <br>круглосуточная «горячая линия»</span>
+        <span class="f-s-18 f-w-600 blue-l text-end"><br>круглосуточная <br>«горячая линия»</span>
         <a  class="f-s-18 f-w-600 blue" href="tel:8-800-234-1-622">8-800-234-1-622</a>
-        <a  class="f-s-18 f-w-600 blue" href="">Личный кабинет</a>
+        <a  class="f-s-18 f-w-600 blue mt-3 _btn" href="">Личный кабинет</a>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4">
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column justify-content-between h-100">
             <img class="cart_img" src="./assets/img/card-01.png" alt="">
             <span class="cart_name">АСМАП-Сервис</span>
             <span class="cart_desc">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column justify-content-between h-100">
             <img class="cart_img" src="./assets/img/card-02.png" alt="">
             <span class="cart_name">Лукойл</span>
             <span class="cart_desc">
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="col-4">
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column justify-content-between h-100">
             <img class="cart_img" src="./assets/img/card-03.png" alt="">
             <span class="cart_name">Газпромнефть</span>
             <span class="cart_desc">

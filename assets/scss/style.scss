@@ -39,6 +39,27 @@ img, svg{
 .f-w-600{
   font-weight: $font-weight-600;
 }
+.red{
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 110%;
+  color: #CC1111;
+}
+
+.zakaz{
+  font-weight: 600;
+  font-size: 15px;
+  color: #1B4F92;
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../img/zakaz.png') no-repeat center center;
+    top: 0;
+  }
+}
 ul{
   list-style: none;
 }
@@ -325,13 +346,33 @@ h1{
   background-size: 100%;
 }
 .viza_btn{
-  background: url(../img/viza_btn.svg) no-repeat top 20px center;
-  background-size: 100%;
-  padding: 30px 80px;
   display: inline-block;
   font-weight: 600;
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  position: relative;
+  background: rgb(91,197,242);
+  background: linear-gradient(90deg, rgba(91,197,242,1) 6%, rgba(0,105,180,1) 6%, rgba(0,105,180,1) 100%, rgba(2,0,36,1) 100%);
+  transform: skew(-10deg,0deg);
   color: #FFFFFF;
+  padding: 10px 20px 10px 40px;
+}
+._btn{
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background: rgb(91,197,242);
+  background: linear-gradient(90deg, rgba(91,197,242,1) 6%, rgba(0,105,180,1) 6%, rgba(0,105,180,1) 100%, rgba(2,0,36,1) 100%);
+  transform: skew(-10deg,0deg);
+  color: #FFFFFF;
+  padding: 10px 20px 10px 40px;
 }
 .viza_btn_big{
     background: url(../img/viza_btn.svg) no-repeat top 20px center;
