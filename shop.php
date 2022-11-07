@@ -13,90 +13,136 @@
   <div class="container">
     <h1>Интернет-магазин <br>"АСМАП-СЕРВИС"</h1>
   </div>
-  <section class="shop_menu">
-    <div class="container">
-      <div class="d-flex flex-wrap">
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Журналы и бланки</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Папки и портфели</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Протиооткатные упоры</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Ящики и инструметальные</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Домкраты</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Троса буксировочные</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Комплекты и составляющие ADR</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Справочная литература</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Карты и атласы</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Аксессуары</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Бумага для тахографа</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Таблички, панели</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Наклейки, светоотражающие плёнки</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Ремни и крепления грузов</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Наклейки, светоотражающие плёнки</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Цепи-браслеты противоскольжения</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Маяки</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
-        </div>
-        <div class="slash_link">
-          <a href="" class="shop_menu_link">Огнетушители и крепления</a>
-          <img src="./assets/img/shop_arrow.svg" alt="">
+  <section class="catalog pb-5">
+    <section class="catalog pb-5">
+      <div class="title_bg">
+        <div class="container">
+          <h3 class="ps-5 title h3">Хиты продаж</h3>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="catalog">
+      <div class="container">
+          <div class="catalog_list mt-3">
+            <div class="w-70 left">
+              <a class="catalog_list_item">
+                <div class="img">
+                  <img src="./assets/img/001ca.png" alt="">
+                </div>
+                <div class="name">
+                  Журналы и бланки
+                </div>
+                <div class="button_shop mt-3">
+                  Купить
+                </div>
+              </a>
+              <a class="catalog_list_item">
+                <div class="img">
+                  <img src="./assets/img/001ca.png" alt="">
+                </div>
+                <div class="name">
+                  Журналы и бланки
+                </div>
+                <div class="button_shop mt-3">
+                  Купить
+                </div>
+              </a>
+              <a class="catalog_list_item">
+                <div class="img">
+                  <img src="./assets/img/001ca.png" alt="">
+                </div>
+                <div class="name">
+                  Журналы и бланки
+                </div>
+                <div class="button_shop mt-3">
+                  Купить
+                </div>
+              </a>
+            </div>
+      </div>
+    </section>
+
     <div class="title_bg">
       <div class="container">
         <h3 class="ps-5 title h3">Каталог</h3>
       </div>
     </div>
+    <section class="shop_menu">
+      <div class="container">
+        <div class="d-flex flex-wrap">
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Журналы и бланки</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Папки и портфели</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Протиооткатные упоры</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Ящики и инструметальные</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Домкраты</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Троса буксировочные</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Комплекты и составляющие ADR</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Справочная литература</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Карты и атласы</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Аксессуары</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Бумага для тахографа</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Таблички, панели</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Наклейки, светоотражающие плёнки</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Ремни и крепления грузов</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Наклейки, светоотражающие плёнки</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Цепи-браслеты противоскольжения</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Маяки</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+          <div class="slash_link">
+            <a href="" class="shop_menu_link">Огнетушители и крепления</a>
+            <img src="./assets/img/shop_arrow.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="container">
         <div class="catalog_list mt-3">
           <div class="w-70 left">
@@ -211,7 +257,7 @@
                 <path d="M11.5 2V13M11.5 13L15 9.5M11.5 13L8 9.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M3 17H20" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <a class="ps-3" href="">Скачать шаблон клиентского договора</a>
+              <a class="ps-3" href="">договор Клиента</a>
             </div>
             <div class="delivery d-flex mt-3">
               <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -221,17 +267,9 @@
                 <path d="M12 12H11V14H12V12Z" fill="white"/>
                 <path d="M29 20.4345V15.0054C29 14.6109 28.8511 14.232 28.5786 13.944L25.2419 10.3747C24.9441 10.0553 24.5226 9.87371 24.0821 9.87058L21.2588 9.86118V5.56549C21.2588 4.70134 20.549 4 19.6745 4H1.58435C0.70979 4 0 4.70134 0 5.56549V20.4345C0 21.2986 0.70979 22 1.58435 22H2.22126C2.23394 19.7895 4.05278 18.0017 6.28988 18.0017C8.52702 18.0017 10.3458 19.7895 10.3585 22H18.5718C18.5845 19.7895 20.4033 18.0017 22.6404 18.0017C24.8775 18.0017 26.6964 19.7896 26.709 22H27.4093C28.2902 22 29 21.2986 29 20.4345ZM13.5082 14.5232C13.5082 14.9114 13.1882 15.2277 12.7952 15.2277H11.2109V16.2077C11.2109 16.5959 10.8908 16.9122 10.4979 16.9122C10.105 16.9122 9.7818 16.5959 9.7818 16.2077V15.2277H8.46045C8.06753 15.2277 7.74749 14.9114 7.74749 14.5232C7.74749 14.135 8.06753 13.8187 8.46045 13.8187H9.7818V11.9088H8.18794C7.79502 11.9088 7.47498 11.5926 7.47498 11.2044V7.88554C7.47498 7.4973 7.79502 7.18107 8.18794 7.18107H9.7818V6.20107C9.7818 5.81283 10.1018 5.49661 10.4948 5.49661C10.8877 5.49661 11.2077 5.81283 11.2077 6.20107V7.18107H12.4023C12.7952 7.18107 13.1153 7.4973 13.1153 7.88554C13.1153 8.27378 12.7952 8.59001 12.4023 8.59001H11.2077V10.4999H12.7921C13.185 10.4999 13.505 10.8161 13.505 11.2044V14.5232H13.5082ZM25.3306 14.3354H22.2031C21.7658 14.3354 21.4109 13.9847 21.4109 13.5526V11.8619C21.4109 11.4298 21.7658 11.0792 22.2031 11.0792H23.7843C24.0093 11.0792 24.2216 11.1731 24.3705 11.3359L25.9168 13.0266C26.3795 13.5307 26.0183 14.3354 25.3306 14.3354Z" fill="white"/>
               </svg>
-              <a class="ps-3" href="">Доставка</a>
+              <a class="ps-3" href="">Доставка и Оплата</a>
             </div>
             <p>Ориентировочный срок доставки 1–2 недели. Стоимость доставки Вы увидите при оформлении заказа.</p>
-            <div class="payment d-flex mt-3">
-              <svg width="29" height="22" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6 0C4.89543 0 4 0.89543 4 2V8.01512H6V6.5H27V16H14.9807V18H27C28.1046 18 29 17.1046 29 16V2C29 0.89543 28.1046 0 27 0H6ZM27 3.5V2L6 2V3.5H27Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5 14.5987C20.0587 14.8539 19.5464 15 19 15C17.3431 15 16 13.6569 16 12C16 10.3431 17.3431 9 19 9C19.5464 9 20.0587 9.14609 20.5 9.40135C20.9413 9.14609 21.4536 9 22 9C23.6569 9 25 10.3431 25 12C25 13.6569 23.6569 15 22 15C21.4536 15 20.9413 14.8539 20.5 14.5987Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 22C10.0899 22 13 19.0898 13 15.5C13 11.9102 10.0899 9 6.5 9C2.91015 9 0 11.9102 0 15.5C0 19.0898 2.91015 22 6.5 22ZM10.8523 13.5124L9.78446 12.4445L5.15277 17.0762L3.21995 15.124L2.14675 16.1865L5.14742 19.2173L10.8523 13.5124Z" fill="white"/>
-              </svg>
-              <a class="ps-3" href="">Оплата</a>
-            </div>
             <p>Вы можете оплатить свои заказы c помощью карт Visa, MasterCard, Мир.</p>
             <div class="garanty d-flex mt-3">
               <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -242,51 +280,6 @@
               <a class="ps-3" href="">Гарантия</a>
             </div>
         </div>
-    </div>
-  </section>
-  <section class="catalog pb-5">
-    <div class="title_bg">
-      <div class="container">
-        <h3 class="ps-5 title h3">Хиты продаж</h3>
-      </div>
-    </div>
-    <div class="container">
-        <div class="catalog_list mt-3">
-          <div class="w-70 left">
-            <a class="catalog_list_item">
-              <div class="img">
-                <img src="./assets/img/001ca.png" alt="">
-              </div>
-              <div class="name">
-                Журналы и бланки
-              </div>
-              <div class="button_shop mt-3">
-                Купить
-              </div>
-            </a>
-            <a class="catalog_list_item">
-              <div class="img">
-                <img src="./assets/img/001ca.png" alt="">
-              </div>
-              <div class="name">
-                Журналы и бланки
-              </div>
-              <div class="button_shop mt-3">
-                Купить
-              </div>
-            </a>
-            <a class="catalog_list_item">
-              <div class="img">
-                <img src="./assets/img/001ca.png" alt="">
-              </div>
-              <div class="name">
-                Журналы и бланки
-              </div>
-              <div class="button_shop mt-3">
-                Купить
-              </div>
-            </a>
-          </div>
     </div>
   </section>
   <section class="news">
